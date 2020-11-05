@@ -100,6 +100,7 @@ export default () => {
           ></input>
         </div>
         <div className="body">
+          <div className="title">Projects</div>
           <div className="list-projects">
             <div>
               {projectList.map((item, key) => (
@@ -138,6 +139,7 @@ export default () => {
             </div>
           </div>
           <div className="list-bugs">
+            <div className="title">Bugs</div>
             <div>
               <div className="bugs-controles">
                 <input
